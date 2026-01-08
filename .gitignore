@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.csv
+*.zip
+*.tar.gz
+*.model
+*.bin
+*.pth
+.ipynb_checkpoints/
