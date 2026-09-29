@@ -1,12 +1,12 @@
 # Hybrid Music Clustering (CSE 425)
 
-Course project for CSE 425 (Neural Networks). It clusters songs by combining **audio** and **lyrics** in a hybrid convolutional variational autoencoder (VAE), on both English and Bangla music.
+Course project for CSE 425. It clusters songs by combining **audio** and **lyrics** in a hybrid convolutional variational autoencoder (VAE), on both English and Bangla music.
 
 ## Approach
 
 | Task | What it does |
 |---|---|
-| Easy | Baseline clustering on audio features |
+| Easy | Baseline clustering (see the notebook for the exact setup) |
 | Medium | A convolutional VAE on mel-spectrograms; clustering in the learned latent space |
 | Hard | A **hybrid conv-VAE** that fuses a mel-spectrogram encoder with a lyrics encoder, then clusters the joint latent space |
 
